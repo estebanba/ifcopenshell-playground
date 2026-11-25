@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "blender": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-for-blender==2.2.7"
+      ],
+      "env": {
+        "DISABLE_TELEMETRY": "true",
+        "BLENDERMCP_NO_UPDATE_CHECK": "1",
+        "BLENDER_HOST": "localhost",
+        "BLENDER_PORT": "9876"
+      }
+    },
+    "cadcraft": {
+      "type": "stdio",
+      "command": "cadcraft-cli",
+      "args": ["mcp", "--connect", "127.0.0.1:7979", "--lazy"]
+    }
+  }
+}

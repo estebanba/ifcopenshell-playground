@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IFC models (large binaries, kept locally)
+models/
+drawings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
